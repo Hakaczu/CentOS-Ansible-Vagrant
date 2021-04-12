@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
   config.ssh.password = "vagrant"
   config.ssh.insert_key = false
   config.vm.provision "shell",
-    inline: "yum update -y; yum install epel-release; ;yum install ansible -y"
+    inline: "yum update -y; yum install epel-release -y; yum install ansible -y"
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
