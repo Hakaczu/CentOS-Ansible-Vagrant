@@ -1,5 +1,5 @@
 # CentOS-Ansible-Vagrant
 ## Usage
 ```bash
-vagrant up --provisioning
+vagrant up --provision
 ```
